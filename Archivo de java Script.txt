@@ -1,0 +1,53 @@
+pagejavascripti.html
+<!DOCTYPE html>
+<html lang ="en¨
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-compatible"content="Ie-edge">
+<meta name="Viewport" content= "width=device-width,initial-scale=1.0!">
+<title>JAVASCRIPT</title>
+</head
+<body>
+ <h1>Pagina de Tecnologia IT</h1>
+ <div id = "datos"></div>
+<scrip src = "main.js" type = tex/javascript¨></script>
+<body>
+</html>
+
+
+
+main.js>
+//alert("Prueva Java Script)
+
+var Nombre = "Juan Carlos Sanchez Burgos";
+var Edad = 53
+var Estatura = 170
+var Estado Civil = Soltero
+var Profesion = Ingenieria en Electronica
+
+// document.write (Nombre);
+   var datos = document.getelementById ("datos");
+datos.innerHTML =¨
+
+<h1> Datos de Personas <h1>
+<h2> Mi nombre es: $[Nombre}</h2>
+<h2> Mi Edad es: $[EDAD}</h2>
+<h2> Mi Estatura es: $[Estatura}</h2>
+<h2> Mi Estado Civil es: $[Estado Civil}</h2>
+<h2> Mi Profesion : $[Profesion}</h2>
+;
+if estatura >= 170
+datos.innerHTML + =¨ <h2>Eres una Persona Alta>/h2>;
+}
+else}datos.innerHTML + = <h2>Eres una Persona Baja</h2>;
+
+
+
+
+
+
+
+
+
+
+
+
